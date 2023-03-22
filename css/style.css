@@ -124,8 +124,20 @@ li.active::after {
 
 /* menu start */
 
-#menu {
-  background-color: #55423d;
+.card2 {
+  width: 77%;
+}
+
+#review {
+  height: 100vh;
+}
+@media screen and (max-width: 767px) {
+  .card2 {
+    width: 100%;
+  }
+  #review {
+    height: auto;
+  }
 }
 
 .text-coklat {
@@ -146,7 +158,6 @@ li.active::after {
   border-radius: 100%;
 }
 
-
 /* footer */
 
 .lebarlogo {
@@ -160,4 +171,21 @@ li.active::after {
 
 .back01 {
   background-color: #fff;
+}
+
+/* test */
+
+#astro,
+#regular,
+#asli {
+  animation: zoom-in 0.5s ease-out;
+}
+
+@keyframes zoom-in {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
