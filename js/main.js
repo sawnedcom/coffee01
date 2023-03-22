@@ -25,11 +25,3 @@ function asliCof() {
     asli.style.display = "block"
 }
 
-function maaf() {
-    let maff = document.getElementById("maff")
-    let maff2 = document.getElementById("maff2")
-    let maff3 = document.getElementById("maff3")
-    maff.style.display = "block"
-    maff2.style.display = "block"
-    maff3.style.display = "block"
-}
